@@ -1,1 +1,781 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 0 0 0;
+}
+
+header {
+    width: 100%;
+    height: 180px;
+    background-color: #EE8A2F;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1;
+    position: fixed;
+}
+
+.image-title {
+    display: flex;
+}
+
+.photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.header-title {
+    margin-left: 30px;
+    padding-top: 64px;
+}
+
+.text-1{
+    color: white;
+    font-size: 1.75rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.header-links {
+    text-align: right;
+}
+
+.links {
+    margin-right: 20px;
+    padding-top: 140px;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin-right: 20px;
+}
+
+.header-link:active {
+    text-decoration: underline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.header-link:target {
+    /*text-decoration: underline;*/
+}
+
+main {
+    padding-top: 200px;
+    padding-bottom: 40px;
+    display: flex;    
+}
+
+.main-data {
+    width: 700px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+
+.main-photo {
+    width: 600px;
+    padding-top: 30px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.text-2 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 0 3px 3px lightgrey;
+    margin-bottom: 0px;    
+}
+
+.main-data p {
+    color: gray;
+}
+
+.color-2 {
+    color: #FFB400;
+}
+
+.big-logo {
+    width: 800px;
+}
+
+.main-data-person{
+    width: 300px;
+    padding-top: 30px;
+}
+
+.main-data-person-sm {
+    display: none;
+}
+
+.main-data-person-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+
+    div {
+        padding: 8px;
+    }
+}
+
+.text-3 {    
+    background-color: #EE8A2F;
+    color: white;
+}
+
+dt.text-3 {
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+dd.item-detail {
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.button-icon-1 {
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: #EE8A2F solid 1px;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 4px lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    text-decoration: none;
+    color: black; 
+}
+.button-download {
+    width: 100%;
+    padding: 10px;
+}
+
+.button-icon {
+    display: inline-block;
+    width: 16px;
+}
+
+.contact-icons {
+    margin-top: 80px;;
+}
+
+.contact-icon {
+    margin-right: 24px;
+}
+
+.icon > img {
+    position: relative;
+}
+
+.large-icon {
+    display: inline-block;
+    width: 30px;
+}
+
+.large-icon img {
+    position: relative;
+}
+
+#envelope {
+    top: 4px;
+}
+
+.resume {
+    width: 100%;
+    background-color: #E5E5E5;
+    padding: 200px 50px 50px 50px;
+    box-sizing: border-box;
+}
+
+.resume-line0-sm {
+    display: none;
+}
+
+.resume-line1 {
+    display: flex;
+    justify-content: start;
+}
+
+.resume-line1-left {
+    width: 550px;
+}
+
+#myResumeTitle {
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+.card1 {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+#aboutMetitle {
+    font-size: 1.15rem;
+}
+
+.lang-hobbies {
+    display: flex;
+    justify-content: start;    
+    padding: 5px;
+}
+
+.lang {
+    width: 50%;
+}
+
+.hobbies {
+    width: 240px;
+}
+
+.lang-row {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.mb-4 {
+    margin-bottom: 4px;;
+}
+
+.text-4 {
+    font-size: 1rem;
+}
+
+.text-5 {
+    font-size: 0.75rem;    
+}
+
+.text-7 {
+    font-size: 1.125rem;
+}
+
+.font-light {
+    color: #767676;
+}
+
+#aboutMetext {
+    font-size: 0.75rem;
+}
+
+.hobbies-row {
+    display: flex;
+    justify-content:space-between;
+}
+
+.hobbies-item {
+    text-align: center;
+}
+
+#text-photography{
+    margin-top: 13px;
+}
+
+.meter {
+    box-sizing: content-box;
+    height: 3px; /* Can be anything */
+    position: relative;
+    margin: 5px 0 5px 0; /* Just for demo spacing */
+    background: white;
+    border-radius: 3px;
+    padding: 1px;
+    border:#EE8A2F solid 1px;
+    width: 100%;
+}
+.meter > span {
+    display: block;
+    height: 100%;
+    border-radius: 2px;
+    background-color: #EE8A2F;
+    position: relative;
+    overflow: hidden;
+}
+
+.resume-line1-right {
+    width: 600px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.quote {
+    margin-top:140px;
+}
+.text-6 {
+    font-size: 3rem;
+}
+
+.resume-logo {
+    position: relative; 
+    width: 0;
+    height: 0;
+}
+
+.resume-logo-inner {
+    position: absolute; 
+    top: -170px;
+    left: 300px;    
+}
+
+.small-logo {
+    width: 280px;    
+}
+
+.resume-line-2 {
+    margin-top: 40px;
+}
+
+.resume-line-2-title {
+    text-align: center;
+}
+
+.subtitle-1 {
+    font-size: 1.35rem;
+    font-weight: bold;
+    text-shadow:  0 3px 3px lightgrey;
+}
+
+#experience-subtitle {
+    font-size: 0.75rem;
+}
+
+.card2 {
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 2px 2px 4px gray;
+    box-sizing: border-box;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#experience-date-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+#experience-1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+#experience-date-2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+#experience-2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+#experience-date-3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+#experience-3 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+	grid-row-end: 3;    
+}
+
+.card3 {
+    margin-top: 45px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 2px 2px 4px gray;
+    box-sizing: border-box;
+}
+
+.tech-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech-icon {
+    width: 120px;
+}
+
+.references-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.references-cards-sm {
+    display: none;
+}
+
+.reference-card {
+    width: 300px;
+    padding: 20px 15px 15px 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.ref-card-row3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ref-card-avatar {
+    width: 100px;
+    /*height: 180px;*/
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.ref-card-name {
+    width: 180px;
+}
+
+.contact {
+    width: 100%;
+    background-color: #E5E5E5;
+    padding: 40px 50px 50px 50px;
+    box-sizing: border-box;    
+}
+
+.city-map {
+    width: 100%;
+}
+
+.contact-form-container {
+    position: relative; 
+    width: 0;
+    height: 0;
+}
+
+.contact-form {
+    position: absolute; 
+    top: -630px;
+    left: 500px;
+    background-color: white;
+    border-radius: 8px;
+    width: 450px;
+    padding: 10px 50px;
+    box-sizing: border-box;        
+}
+
+.text-group {
+    margin: 10px 0;
+    label {
+        font-size: 0.75rem;
+        display: block;
+        margin-bottom: 5px;;
+    }
+
+    input {
+        background-color: #F0F0F6;
+        width: 100%;
+        height: 30px;
+        border: 0;
+    }
+
+    textarea {
+        background-color: #F0F0F6;
+        width: 100%;
+        border: 0;
+    }
+}
+
+.button-mail {
+    width: 190px;;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+
+    ul {
+        margin: 0;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    li {
+        margin-right: 20px;
+        font-size: 0.75rem;    
+        color: #FFFFFF;
+        list-style: none;
+        color: white;
+        display: inline;        
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .image-title {
+        width: 100%;
+    }
+	.header-links {
+        width: 100%;
+        text-align: center;
+    }
+    .photo {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-top: 10px;
+        overflow: hidden;
+    } 
+    .header-title {
+        margin-left: 30px;
+        padding-top: 10px;
+    }
+    .header-links {
+        
+    }
+    
+    .links {
+        margin-right: 0px;
+        padding-top: 0px;
+    }
+    
+    .header-link {
+        margin-right: 20px;
+    }    
+
+    main {
+        /*padding-top: 180px;*/
+        flex-wrap: wrap;
+    }
+    
+    .main-data {
+        width: 100%;
+        text-align: center;
+        /*
+        padding-top: 30px;
+        padding-left: 20px;
+        margin-left: 30px;
+        */
+    }
+    
+    .main-photo {
+        width: 100%;
+        /*
+        padding-top: 30px;
+        padding-left: 20px;
+        */
+        overflow: hidden;
+    }   
+    
+    .main-data-person{
+        display: none;
+    }
+
+    .main-data-person-sm {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        padding-top: 30px;        
+    }
+
+    .main-photo {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 100px;
+        padding-top: 30px;
+        overflow: hidden;
+    }
+    
+    .big-logo {
+        width: 600px;
+    }
+
+    .resume-line0-sm {
+        display: block;
+    }
+
+    #myResumeTitle-sm {
+        font-size: 3rem;
+        padding-left: 0;
+        text-align: center;
+    }    
+    
+    #myResumeTitle {
+        display: none;
+    }    
+
+    .resume-logo-inner {
+        top: -250px;
+        left: 400px;    
+    }    
+
+    .quote {
+        margin-top:100px;
+    }
+
+    .resume-line1-right {
+        display: none;
+    }
+
+    .resume-line1{
+        margin-top: 40px;
+    }
+
+    .resume-line1-left {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card1 {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+       
+    .lang-hobbies {
+        flex-wrap: wrap;        
+    }
+    
+    .lang {
+        width: 100%;
+    }
+
+    .lang-row {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hobbies {
+        margin-left: auto;
+        margin-right: auto;        
+    }    
+
+    .experience {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr;
+    }
+    
+    #experience-date-1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #experience-1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #experience-date-2 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    #experience-2 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    #experience-date-3 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    #experience-3 {
+        grid-column: 1;
+        grid-row: 6;
+    }    
+
+    .tech-icons {
+        overflow: hidden;
+    }
+
+    #icon-netcore-2, #icon-javascript-2, #icon-angular-2 {
+        display: none;
+    }
+
+    .references {
+        text-align: center;
+    }
+
+    .references-cards {
+        display:none;
+        flex-wrap: wrap;
+    }
+
+    .references-cards-sm {
+        display: block;
+    }
+    
+    .reference-card {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        /*
+        padding: 20px 15px 15px 15px;
+        */
+    }
+
+    .reference-options {
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        width: 165px;
+    }
+    .custom-option {
+        background-color: lightgray;
+        width: 19px;
+        height: 19px;
+        border-radius: 50%;
+        border: 11px solid lightgray;
+    }
+
+    .custom-option-selected {
+        background-color: #EE8A2F;
+    }    
+
+    .contact-form-container {
+        position: static; 
+        width: auto;
+        height: auto;
+    }
+    
+    .contact-form {
+        position: static; 
+        top: 0px;
+        left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+}
